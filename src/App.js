@@ -1,11 +1,12 @@
-import { AppBar, Container, Toolbar, Grid, Typography } from '@material-ui/core';
 import React from 'react';
 import './App.css';
-
+import Header from './components/Header';
+import HeaderText from './components/HeaderText';
 function App() {
   return (
     <div>
-        <h1>Test</h1>
+        <Header />
+        <HeaderText />
     </div>
   );
 }
